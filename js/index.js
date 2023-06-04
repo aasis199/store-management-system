@@ -1,14 +1,16 @@
 
-    // var modal = ;
+window.onload = function(){ 
+    var modal = document.getElementById("myModal");
     var btn = document.getElementById("open-modal");
-    var modal = document.getElementById("modal-content");
     var closeBtn = document.getElementById('close_modal');
-    // modal.style.display = "none";
 
     btn.onclick = function() {
-        modal.style.display = 'block';
+        modal.style.display = "block";
+        // document.getElementById('body').style.opacity = '0.6';
     }
     closeBtn.onclick = function(){
-        modal.style.display = 'none';
+        modal.style.display = "none";
     }
+
+};
 
